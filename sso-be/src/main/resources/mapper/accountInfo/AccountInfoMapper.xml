@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.demo.code.modules.accountInfo.dao.AccountInfoMapper">
+
+        <!-- 通用查询映射结果 -->
+        <resultMap id="BaseResultMap" type="com.demo.code.modules.accountInfo.entity.AccountInfo">
+                    <id column="id" property="id"/>
+                    <result column="application_name" property="applicationName"/>
+                    <result column="type_code" property="typeCode"/>
+                    <result column="type_name" property="typeName"/>
+                    <result column="application_describe" property="applicationDescribe"/>
+                    <result column="app_key" property="appKey"/>
+                    <result column="create_time" property="createTime"/>
+                    <result column="update_time" property="updateTime"/>
+                    <result column="create_name" property="createName"/>
+                    <result column="update_name" property="updateName"/>
+                    <result column="deleted" property="deleted"/>
+        </resultMap>
+
+        <!-- 通用查询结果列 -->
+        <sql id="Base_Column_List">
+            id, application_name, type_code, type_name, application_describe, app_key, create_time, update_time, create_name, update_name, deleted
+        </sql>
+
+</mapper>

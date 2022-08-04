@@ -1,0 +1,148 @@
+{
+    "or": "或",
+    "login": {
+        "Title": "登录到Cellor SSO",
+        "UsernameLabel": "用户名",
+        "UsernamePlaceholder": "请输入用户名",
+        "PasswordLabel": "密码",
+        "PasswordPlaceholder": "请输入密码",
+        "LoginButton": "登录",
+        "RememberMeTips": "记住我",
+        "ForgotPasswordTips": "忘记密码?",
+        "LoginMessage": {
+            "400": "用户名密码错误",
+            "500": "该用户不存在"
+        }
+    },
+    "error": {
+        "request": "请求失败, 请稍后重试",
+        "failedLoadPage": "页面加载失败，请稍后重试"
+    },
+    "notification":{
+        "title": "通知"
+    },
+    "users": {
+        "PageTitle": "用户管理",
+        "PageSubTitle": "用于管理所有能够访问系统的用户",
+        "columns": {
+            "name": "用户名",
+            "email": "邮箱",
+            "chineseName": "中文名",
+            "englishName": "英文名",
+            "avatar": "头像"
+        }
+    },
+    "userinfo": {  
+        "title": "用户信息",       
+        "username": "用户名",
+        "usernamePlaceholder": "请输入用户名",
+        "age": "年龄",
+        "agePlaceholder": "请输入年龄",
+        "gender": "性别",
+        "sex":{
+            "male":"男",
+            "female":"女"
+        },
+        "genderPlaceholder": "请选择性别",
+        "loginName": "登录名",
+        "loginNamePlaceholder": "请输入登录名",
+        "email": "邮箱",
+        "emailPlaceholder": "请输入邮箱",
+        "password": "密码",
+        "passwordPlaceholder": "请输入密码",
+        "role": "角色",
+        "rolePlaceholder": "请输入角色",
+        "chineseName": "中文名",
+        "chineseNamePlaceholder": "请输入中文名",
+        "englishName": "英文名",
+        "englishNamePlaceholder": "请输入英文名",
+        "avatar": "头像",
+        "avatarPlaceholder": "请选择头像",
+        "returnMessage":{
+            "success":"保存成功",
+            "failed":"用户已存在", 
+            "error":"保存失败"  
+        },
+        "updateMessage":{
+            "success":"修改保存成功",
+            "failed":"用户已存在", 
+            "error":"保存失败"  
+        },
+        "deleteMessage":{
+            "success":"删除成功",
+            "failed":"删除失败"            
+        }    
+    },
+    "applications": {
+        "PageTitle": "应用管理",
+        "PageSubTitle": "用于管理所有能够访问系统的应用",
+        "columns": {
+            "applicationName": "应用名",
+            "typeCode": "项目类型Code",
+            "typeName": "项目类型",
+            "appKey": "密钥",
+            "applicationDescribe": "项目描述"
+            
+        }
+    },
+    "applicationInfo": {
+        "title": "应用信息",      
+        "applicationName": "应用名", 
+        "applicationNamePlaceholder": "请输入应用名",          
+        "typeName": "项目类型",
+        "typeCode": {
+            "weChatCode":"微信小程序",
+            "androidCode":"安卓",
+            "iosCode":"ios",
+            "webCode":"web"  
+        },
+        "typeNamePlaceholder": "请选择项目类型", 
+        "applicationDescribe": "项目描述",
+        "applicationDescribePlaceholder": "请输入应用描述",
+        "returnMessage":{
+            "success":"保存成功",
+            "failed":"用户已存在", 
+            "error":"保存失败"  
+        },
+        "updateMessage":{
+            "success":"修改保存成功",
+            "failed":"用户已存在", 
+            "error":"保存失败"  
+        },
+        "deleteMessage":{
+            "success":"删除成功",
+            "failed":"删除失败"            
+        }    
+            
+      
+    },
+    "common":{
+        "request": {
+            "401": "未授权",
+            "403": "禁止访问",
+            "404": "未找到",
+            "500": "服务器错误"
+        },
+        "loading": "加载中...",
+        "loadingError": "加载失败",
+        "Search": "搜索",
+        "EmptyDescription": "没有数据",
+        "columns": {
+            "id": "ID",
+            "title": "名称",
+            "description": "描述",
+            "createdAt": "创建时间",
+            "updatedAt": "更新时间",
+            "createBy": "创建人",
+            "updateBy": "更新人",
+            "actions": "操作"
+        },
+        "addAction": "添加",
+        "updateAction": "更新",
+        "deleteAction": "删除",
+        "deleteConfirm": "确定要删除吗?",
+        "okText": "确定",
+        "cancelText": "取消",
+        "returnText":"返回"
+    }
+}

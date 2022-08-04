@@ -1,0 +1,35 @@
+@from-left: 0.8rem;
+@logo-size: 40px;
+@card-width: 30rem;
+
+
+.parent-100{
+    width: 100%;
+    height: 100%;
+}
+.login-container{
+    .parent-100();
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.login-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    img{
+        width: @logo-size;
+        height: @logo-size;
+    }
+    span{
+        font-weight: bold;
+        margin-left: @from-left;
+    }
+}
+.login-card{
+    width: @card-width;
+}
+.form-login-forgot{
+    margin-left: @from-left;
+}

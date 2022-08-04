@@ -1,0 +1,145 @@
+{
+    "or": "or",
+    "login": {
+        "Title": "Sign in to Cellor SSO",
+        "UsernameLabel": "Username",
+        "UsernamePlaceholder": "please enter your username",
+        "PasswordLabel": "Password",
+        "PasswordPlaceholder": "please enter your password",
+        "LoginButton": "Sign In",
+        "RememberMeTips": "Remember me",
+        "ForgotPasswordTips": "Forgot password?",
+        "LoginMessage": {
+            "400": "please check your Username/password ",
+            "500": "The user does not exist"
+        }
+    },
+    "error": {
+        "request": "Request failed, Please try again later",
+        "failedLoadPage": "Failed to load page, Please try again later"
+    },
+    "notification":{
+        "title": "Notification"
+    },
+    "users": {
+        "PageTitle": "Users Management",
+        "PageSubTitle": "To manage all the users who can access all the system",
+        "columns": {
+            "name": "Name",
+            "email": "Email",
+            "chineseName": "Chinese Name",
+            "englishName": "English Name",
+            "avatar": "Avatar"
+        }
+    },
+    "userinfo": {     
+            "title": "UserInfo",  
+            "username": "User Name",
+            "usernamePlaceholder": "please enter your username",
+            "age": "Age",
+            "agePlaceholder": "please enter your age",
+            "gender": "Gender",
+            "sex":{
+                "male":"Male",
+                "female":"Female"
+            },
+            "genderPlaceholder": "please choose your gender",
+            "loginName": "LoginName",
+            "loginNamePlaceholder": "please enter your loginName",
+            "email": "Email",
+            "emailPlaceholder": "please enter your email",
+            "password": "Password",
+            "passwordPlaceholder": "please enter your password",
+            "role": "Role",
+            "rolePlaceholder": "please enter your role",
+            "chineseName": "Chinese Name",
+            "chineseNamePlaceholder": "please enter your chineseName",
+            "englishName": "English Name",
+            "englishNamePlaceholder": "please enter your englishName",
+            "avatar": "Avatar",
+            "avatarPlaceholder": "please enter your avatar",            
+            "returnMessage":{
+                "success":"Success",
+                "failed":"User already exists", 
+                "error":"Failed"   
+            },
+            "updateMessage":{
+                "success":"Success",
+                "failed":"User already exists", 
+                "error":"Failed"  
+            },
+            "deleteMessage":{
+                "success":"Success",
+                "failed":"Failed"            
+            }        
+    },
+    "applications": {
+        "PageTitle": "Applications Management",
+        "PageSubTitle": "To manage all the application who can access all the system",
+        "columns": {
+            "applicationName": "Application Name",
+            "typeCode": "Application Code",
+            "typeName": "Application Type",
+            "appKey": "Application AppKey",
+            "applicationDescribe": "Application Describe"            
+        }
+    },
+    "applicationInfo": {
+        "title": "ApplicationInfo",     
+        "applicationName": "Application Name", 
+        "applicationNamePlaceholder": "please enter your applicationname",          
+        "typeName": "Application Type",
+        "typeNamePlaceholder": "please choose your applicationtype",
+        "typeCode": {
+            "weChatCode":"weChat",
+            "androidCode":"android",
+            "iosCode":"ios",
+            "webCode":"web"  
+        },       
+        "applicationDescribe": "Application Describe",
+        "applicationDescribePlaceholder": "please enter your applicationdescribe",
+        "returnMessage":{
+            "success":"Success",
+            "failed":"Application already exists", 
+            "error":"Failed"  
+        },
+        "updateMessage":{
+            "success":"Success",
+            "failed":"Application already exists", 
+            "error":"Failed"  
+        },
+        "deleteMessage":{
+            "success":"Success",
+            "failed":"Failed"            
+        } 
+    },
+    "common":{
+        "request": {
+            "401": "Unauthorized",
+            "403": "Forbidden",
+            "404": "Not Found",
+            "500": "Internal Server Error"
+        },
+        "loading": "Loading...",
+        "loadingError": "Failed to load",
+        "Search": "Search",
+        "EmptyDescription": "No data",
+        "columns": {
+            "id": "ID",
+            "title": "Title",
+            "description": "Description",
+            "createdAt": "Created At",
+            "updatedAt": "Updated At",
+            "createBy": "Created By",
+            "updateBy": "Updated By",
+            "actions": "Actions"
+        },
+        "addAction": "Add",
+        "updateAction": "Update",
+        "deleteAction": "Delete",
+        "deleteConfirm": "Are you sure to delete this item?",
+        "okText": "OK",
+        "cancelText": "Cancel",
+        "returnText":"Return"
+    }
+}

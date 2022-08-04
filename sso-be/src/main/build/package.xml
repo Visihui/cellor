@@ -1,0 +1,52 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.0.0 http://maven.apache.org/xsd/assembly-2.0.0.xsd
+http://maven.apache.org/ASSEMBLY/2.0.0 ">
+    <id>package</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>true</includeBaseDirectory>
+    <fileSets>
+        <!--  将启动文件打包进去  -->
+        <fileSet>
+            <directory>${basedir}</directory>
+            <outputDirectory/>
+            <includes>
+                <include>agent.sh</include>
+            </includes>
+        </fileSet>
+        <fileSet>
+            <directory>${basedir}/src/main/resources/config</directory>
+            <outputDirectory>config</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>${project.build.directory}</directory>
+            <outputDirectory/>
+            <includes>
+                <include>*.jar</include>
+                <!--注意此处是将项目依赖的第三方jar全部copy至assembly打包出来的目录中
+                如果没有此段，则lib目录是在target目录下，而不会存放于assembly打包的目录中-->
+                <include>/lib/*</include>
+            </includes>
+        </fileSet>
+
+    </fileSets>
+    <dependencySets>
+        <dependencySet>
+            <!--依赖包的输出目录-->
+            <outputDirectory>/lib</outputDirectory>
+            <scope>runtime</scope>
+            <excludes>
+                <exclude>${groupId}:${artifactId}</exclude>
+            </excludes>
+        </dependencySet>
+        <dependencySet>
+            <!--jar包的输出目录-->
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>${project.groupId}:${project.artifactId}</include>
+            </includes>
+        </dependencySet>
+    </dependencySets>
+</assembly>
